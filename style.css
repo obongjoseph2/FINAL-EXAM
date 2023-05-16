@@ -1,0 +1,274 @@
+body{
+  
+    height: auto;
+}
+
+.MAINDIV{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#lst a{
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+  .dropdown:hover .dropbtn {background-color: rgb(231, 40, 40);}
+
+
+.dropdown_menu{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Image_v{
+    background-image: url("umu4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: rgb(236, 48, 48);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+
+.imggg{
+
+    margin-bottom: 100px;
+}
+#emails{
+    color: #ddd;
+    font-weight: normal;
+}
+
+.fix{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #cac9c9;
+}
+
+
+.vide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.vide img{
+    width: 400px;
+    height: 100px;
+
+}
+
+.fix{
+    width: 1200px;
+    align-self: center;
+    margin-top: 30px;
+}
+.base{
+    width:1350px;
+    align-items:center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom:35px;
+    
+}
+
+.RIGHT ul{
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.HI{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.HI a{
+    color: red;
+
+    font-weight: bold;
+}
+
+.UMULOGO{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    height: 120px;
+   
+}
+.US{
+    background-image: url("logo3.png");
+    background-repeat: no-repeat;
+  
+    height: 120px;
+    justify-self: center;
+    width: 700px;
+}
+
+
+.dropbtn {
+    background-color:red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  
+  .dropdownlist{
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+.iconX img{
+    width: 20px;
+    height: 20px;
+}
+#start{
+    color: red;
+    font-weight: bold;
+
+}
+#normal{
+    color: red;
+    font-weight: bold;
+    margin-left:10px ;
+}
+.credit1{
+    border: red solid 1px; 
+    width: 220px; 
+    margin-left: 10px;
+    margin-right: 90px;
+  }
+  .credit2{
+    border: red solid 1px; 
+    width: 230px; 
+    margin-left: 10px;
+    margin-right: 90px;
+  }
+    
+
+.credit{
+  border: red solid 1px; 
+  width: 190px; 
+  margin-left: 10px;
+  margin-right: 90px;
+}
+
+#search{
+    width: 140px;
+    height: 35px;
+    border-radius: 325px;
+    color: rgb(150, 150, 145);
+
+}
+#we{
+    display: flex;
+    flex-direction: row;
+}
+#search1{
+    width: 140px;
+    height: 35px;
+    border-radius: 325px;
+    color: rgb(236, 20, 20);
+   background-color: rgb(221, 168, 100);
+}
+.zx{
+    margin-left: 60px;
+}
+.ree{
+    background-color: rgb(181, 176, 176);
+    margin-left: 20px;
+   
+}
+.together{
+    color: rgb(102, 101, 101);
+    background-color: rgb(24, 23, 23);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+.mine{
+    color: whitesmoke;
+}
+.kalla{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+#redd{
+    color: red;
+}
+.lastcopyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(102, 101, 101);
+    background-color: rgb(24, 23, 23);
+}
+.marquee{
+    height: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageMar{
+    
+    border-bottom: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
